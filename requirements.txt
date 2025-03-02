@@ -3,3 +3,4 @@ tqdm
 regex
 pyarrow
 pandas
+huggingface_hub

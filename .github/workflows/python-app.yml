@@ -21,5 +21,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Run script
-      run: python train_bpe_tokenizer.py 
+    - name: Run training script
+      run: python train_bpe_tokenizer.py
+    - name: Run testing script
+      run: python test_bpe_tokenizer.py 
